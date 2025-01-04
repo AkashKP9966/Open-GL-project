@@ -5,7 +5,7 @@
 const unsigned int SCR_WIDTH = 1920;
 const unsigned int SCR_HEIGHT = 1080;
 
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+void framebuffer_size_callback(GLFWwindow* window, int width, int height); //callback function
 void processInput(GLFWwindow* window);
 
 const char* vertexShaderSource = "#version 330 core\n"
